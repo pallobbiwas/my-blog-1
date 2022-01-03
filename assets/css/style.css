@@ -1,0 +1,396 @@
+*,  *:before, *:after {
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+}
+body{
+    margin:auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    
+}
+.container{
+    padding: 0px;
+    width: 1100px;
+    max-width: 1000%;
+    height: auto;
+    margin: auto;
+    background-color: darkseagreen;
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+}
+li{
+    list-style: none;
+    display: inline-flex;
+}
+.menu {
+    background-color: coral;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.menu .logos {
+    width: 20%;
+    
+}
+
+.menu .logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding-left: 10%;
+}
+.logpos{
+    padding-left: 10%;
+}
+.pos{
+    width: 80%;
+    padding-left: 100px;
+}
+.menu .navbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.menu .navbar .com:hover{
+    background-color: cadetblue;
+    transition: .4s;
+    border-radius: 5%;
+}
+.menu .search{
+    padding-top: 3%;
+    padding-left: 15%;
+    font-size: 20px;
+}
+#search{
+    width: 50px;
+    transition: width .4s ease-in-out;
+}
+#search:focus{
+    width: 150px;
+    background-color: burlywood;
+}
+
+.pera{
+    padding-bottom: 50px;
+}
+.menu .search .pad{
+    padding-left: 10px;
+}
+
+/*navigation end*/
+/*banner start*/
+.picpos{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.bannertext .h1 {
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bannertext {
+    width: 700px;
+    max-width: 100%;
+    margin:auto;
+    padding: 90px 0px;
+    color: #fff;
+    text-align: center;
+}
+
+.bannertext .para {
+    padding-bottom: 30px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bannertext .btn {
+    margin-top: 10%;
+    background-color: rgb(230, 29, 29);
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 5px;
+}
+/*ene*/
+/*start*/
+.service_section_title .service_title {
+    width: 300px;
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    
+}
+
+.service_title .set_position {
+    position: absolute;
+    background: rgb(74, 231, 12);
+    padding: 6px 12px;
+    top: -18px;
+    left: 10%;
+    border-radius: 5%;
+}
+.h5{
+    width: 100px;
+    width: 200px;
+}
+.service_title .set_position .h5 {
+    color: #fff;
+    padding: 0px;
+    margin: 0px;
+}
+.set_pading{
+    padding-top: 0px;
+}
+.set_pading .flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex .box{
+    background-color: blue;
+    width: 25%;
+    padding: 0px 15px;
+    padding-top: 5%;
+}
+.inerbox .circle{
+    display: flex;
+    justify-content: center;
+
+}   
+.inerbox .circle .img .tdd{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 5px;
+}
+.inerbox .txtbox{
+    text-align: right;
+    overflow: hidden;
+}
+.inerbox .txtbox .h3 {
+    padding-top: 20px;
+    font-size: 23px;
+}
+/*banner end*/
+/*content start*/
+.content{
+    max-width: 100%;
+    padding: 0px;
+}
+.uperhed{
+    background-color: rgb(11, 25, 44);
+    width: 100%;
+    display: flex;
+}
+.h4{
+    color: rgb(250, 246, 8);
+    font-size: 18px;
+}
+.uperhed .port{
+    width: 50%;
+    padding-left: 10%;
+}
+.uperhed .more{
+    width: 50%;
+    text-align: right;
+    padding-right: 20%;
+}
+.uperhed .more .second_btn{
+    background-color: rgb(25, 13, 107);
+    border-radius: 5%;
+    padding: 4px;
+    color: white;
+}
+
+.boxer{
+    background-color: rgb(11, 25, 44);
+    width: 100%;
+    margin: 0px;
+    justify-items: center;
+ 
+}
+.main_box{
+    background-color: rgb(11, 25, 44);
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    display: flex;
+    padding-left: 12%;
+    padding-top: 3%;
+    padding-bottom: 4%;
+}
+.main_box .boxer1{
+    border: 5px solid wheat;
+    width: 200px;
+    height: 100px;
+    background-color: rgb(141, 141, 128);
+
+}
+.text{
+    padding: 0px;
+    margin: 0px;
+    width: 180px;
+    height: 180px;
+    text-align: left;
+    padding-left: 22%;
+    padding-top: 5%;
+}
+.hh{
+    color:rosybrown;
+
+}
+.pera{
+    color: seashell;
+}
+.main_box .boxer1{
+    border: 5px solid wheat;
+    margin-left: 50px;
+    width: 200px;
+    height: 100px;
+    background-color: rgb(141, 141, 128);
+}
+.main_box .boxer1{
+    margin-left: 50px;
+    width: 200px;
+    height: 100px;
+    border: 5px solid wheat;
+    background-color: rgb(141, 141, 128);
+}
+/*end content*/
+/*one third start*/
+.h6{
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: green;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+.poscont{
+    padding-top: 10%;
+}
+.pra{
+    text-align: center;
+    color: black;
+    padding-left:20% ;
+    padding-right:20% ;
+}
+.fbox{
+    padding-right: 10%;
+}
+.thirdtext{
+    text-align: justify;
+    width: 100%;
+    height: auto;
+    padding: 5%;
+    display: flex;
+    
+}
+.pal{
+    font-size: 18px;
+    color: green;
+}
+.btt{
+    background-color: green;
+    height: 5px;
+    width: 30px;
+    border-radius: 5%;
+}
+.det{
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+.det1{
+    padding-left: 10%;
+}
+.det2{
+    padding-left: 50%;
+}
+.one{
+    padding-top: 10%;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.polu{
+    color: rgb(19, 19, 71);
+}
+.quite{
+    font-weight: bold;
+}
+.pora{
+    color: rgb(119, 76, 46);
+    padding-top: 10%;
+    font-size: 10px;
+}
+.pora a:hover{
+    background-color: burlywood;
+    border-radius: 8%;
+}
+.logoo{
+    text-align: center;
+    display: flex;
+    padding-top: 3%;
+    padding-left: 33%;
+    padding-bottom: 5%;
+
+}
+.como{
+    margin-left: 2%;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgb(63, 133, 143);
+    
+}
+.como:hover{
+    box-shadow: rgb(23, 26, 32) 5px 5px 5px;
+}
+.fotter{
+    margin-top: 0px;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(11, 25, 44);
+    display: flex;
+    padding-bottom: 5%;
+}
+.h44{
+    color: chocolate;
+    font-size: 18px;
+}
+.fotter .textbox{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    text-align: justify;
+    padding: 5%;
+
+}
+.last{
+    display: flex;
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: rgb(146, 176, 218);
+    text-align: right;
+}
+.mail{
+    padding-left: 30%;
+    padding-top: 2%;
+}
+.copy{
+    padding-left: 20%;
+    padding-top: 3%;
+}
+.last a:hover{
+    background-color: darkgrey;
+    border-radius: 50%;
+}
